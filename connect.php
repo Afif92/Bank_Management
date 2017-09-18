@@ -1,0 +1,1 @@
+<?php	$host='localhost';	$user='root';	$pass='';	$db='bank_project';		$con = mysqli_connect($host,$user,$pass,$db);		$db_selected = mysqli_select_db($con, $db);		if (!$db_selected){        echo "Cannot connect to the database.";        exit;		}	?>
